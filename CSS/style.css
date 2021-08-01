@@ -1,0 +1,61 @@
+/* Default Setup */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* Variable Declarations */
+    --mainColor: #283526;
+    --primaryColor: #888888;
+    --buttonBackground: #4b709e;
+    --primaryButtonBackground: #fe7649;
+    --backgroundColor: #e2efff;
+}
+
+h1,h2{
+    color: var(--mainColor);
+}
+
+h3,h4{
+    color: var(--mainColor);
+}
+
+h3{
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+}
+
+p,a,li,button {
+    font-family: "muli";
+    color: var(--primaryColor);
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+}
