@@ -101,7 +101,7 @@ header nav .leftSideMenu .subMenu{
 }
 
 header nav .leftSideMenu .subMenu a{
-    margin-left: 2rem;
+    margin-left: 1.8rem;
 }
 
 header nav .leftSideMenu .subMenu a li{
@@ -141,4 +141,60 @@ header nav .rightSideMenu a{
 
 header nav .rightSideMenu a li:hover{
     color: var(--buttonBackground);
+}
+
+/* Hero Section */
+
+.heroSection{
+    /* background-color: red; */
+    padding: 0 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.heroSection .leftSideHero{
+    width: 50%;
+}
+
+.heroSection .leftSideHero h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.heroSection .leftSideHero p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 75%;
+}
+
+.heroSection .leftSideHero .buttonGroup {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroSection .leftSideHero .buttonGroup a img{
+    width: 11.5rem;
+    height: 4rem;
+
+}
+
+.heroSection .leftSideHero .buttonGroup a .playStore{
+    height: 3.6rem;
+    position: relative;
+    bottom: 3px;
+    margin-left: 5px;
+}
+
+.heroSection .rightSideHero{
+    width: 50%;
+    background-color: var(--backgroundColor);
+}
+
+.heroSection .rightSideHero img{
+    width: 100%;
+    height: 100%;
 }
