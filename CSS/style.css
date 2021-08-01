@@ -56,6 +56,89 @@ li{
 }
 
 button{
-    padding: 1rem 3rem;
+    padding: 0 1rem;
     border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 2.6rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* Setup Navigation Bar */
+
+header{
+    padding: 0 10rem;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+}
+
+/* Left Side Menu */
+header nav .leftSideMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+header nav .leftSideMenu a img{
+    width: 12rem;
+    height: 5rem;
+}
+
+header nav .leftSideMenu .subMenu{
+    display: flex;
+    height: inherit;
+}
+
+header nav .leftSideMenu .subMenu a{
+    margin-left: 2rem;
+}
+
+header nav .leftSideMenu .subMenu a li{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    transition: all 0.2s;   
+}
+
+header nav .leftSideMenu .subMenu a li:hover{
+    color: var(--buttonBackground);
+}
+
+/* Right Side Menu */
+header nav .rightSideMenu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+header nav .rightSideMenu button{
+    margin-left: 1rem;
+    background-color: var(--buttonBackground);
+    color: white;
+}
+
+header nav .rightSideMenu button:hover{
+    background-color: #3b6597; 
+}
+
+header nav .rightSideMenu a{
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1rem;
+}
+
+header nav .rightSideMenu a li:hover{
+    color: var(--buttonBackground);
 }
