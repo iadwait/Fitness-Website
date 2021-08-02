@@ -146,7 +146,6 @@ header nav .rightSideMenu a li:hover{
 /* Hero Section */
 
 .heroSection{
-    /* background-color: red; */
     padding: 0 10rem;
     width: 100%;
     display: flex;
@@ -197,4 +196,82 @@ header nav .rightSideMenu a li:hover{
 .heroSection .rightSideHero img{
     width: 100%;
     height: 100%;
+}
+
+/* Common Section CSS */
+.commonSection{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    margin-top: 7rem;
+    margin-bottom: 9rem;
+    padding: 0 10rem;
+    text-align: center;
+}
+
+/* Section 2 */
+/* Section 2 Left Side */
+.commonSection .leftSideSection2{
+    width: inherit;
+    height: inherit;
+}
+
+.commonSection .leftSideSection2 figure{
+    background-color: #f3f9ff;
+    border-radius: 20px;
+    
+}
+
+.commonSection .leftSideSection2 img{
+    width: 22rem;
+    height: 30rem;
+    border-radius: 2rem;
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Section 2 Right Side */
+.commonSection .rightSideSection2{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.commonSection .rightSideSection2 h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 4rem;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.commonSection .rightSideSection2 p{
+    margin: 2rem 1rem;
+    font-size: 1.2rem;
+}
+
+.commonSection .rightSideSection2 .commonButton{
+    background-color: var(--primaryButtonBackground);
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-right: 0.7rem;
+}
+
+.commonSection .rightSideSection2 .commonButtonNormal{
+    background-color: transparent;
+    color: var(--mainColor);
+    padding: 0.5rem 2rem;
+}
+
+.commonSection .rightSideSection2 .commonButton:hover{
+    background-color: #e25121;
+}
+
+.commonSection .rightSideSection2 .commonButtonNormal:hover{
+    color: #e25121;
 }
